@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h3>AshClUB.</h3>
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                   <li><a href="">ABOUT</a></li>
+                    <li><a href="">HELP</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div class="container">
+            <div class="top">
+
+            </div>
+            <div class="bottom">
+                <form action="/check" method="post" name = "loginForm" onsubmit="return validate()">
+                    <div class="formdesign" id="femail">
+                        <div class="data">
+                            Email : <input type="email" name="uemail" autocomplete="off">
+                        </div>
+                        <div class="error">
+                            <p class="errormessage"></p>
+                        </div>
+                    </div>
+                    <div class="formdesign" id="fpass">
+                        <div class="data">
+                            Password : <input type="password" name="upass" autocomplete="off" >
+                        </div>
+                        <div class="error">
+                            <p class="errormessage"></p>
+                        </div>
+                    </div>
+                    <div class="error">
+                        <p id ="invalid"></p>
+                    </div>
+                    <div class="formdesign">
+                        <button type="submit" id="Submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+
+    <script src="../JS/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "This is the real time chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Ayush",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.5",
+    "socket.io": "^4.5.4",
+    "validator": "^13.7.0"
+  }
+}

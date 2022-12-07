@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgb(251, 156, 88), rgb(0, 0, 0));
+}
+.navbar{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background:linear-gradient(rgb(255, 139, 50),rgb(255, 185, 94));
+}
+
+.logo h2{
+    font-family: 'Terano';
+    font-size: 20px;
+    letter-spacing: 0.225em;
+    font-weight: 900;
+    font-style: normal;
+    color: #333;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'gilroy';
+    color: #333;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+nav ul li a:hover{
+    color:rgb(255, 255, 255);
+}
+
+.logout button{
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.logout button a:hover{
+    color: hsl(0, 3%, 11%);
+}
+.logout a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.box{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat{
+    width: 100%;
+    height: 100%;
+    background-image: url(./mainbg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    overflow: scroll;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.492);
+
+
+}
+
+.messagebox{
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color: #333;
+    color: white;
+    margin: 10px 0px;
+}
+
+.left{
+    float: left;
+    clear: both;
+    
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.form{
+    width: 100%;
+}
+.form form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form form input{
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    color: rgb(19, 19, 19);
+    padding: 0px 15px;
+    font-size: 15px;
+}
+
+.form form button{
+    width: 80px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 245, 98);
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form form button:hover{
+    background-color: rgb(47, 133, 187); ;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background:linear-gradient(rgb(255, 139, 50),rgb(255, 185, 94));
+}
+
+
